@@ -4,6 +4,7 @@ return {
     config = function()
         local lspconfig = require("lspconfig")
         local mason_registry = require("mason-registry")
+        local pid = vim.fn.getpid()
         local omnisharp_path = mason_registry.get_package("omnisharp"):get_install_path()
         
         lspconfig.omnisharp.setup({
