@@ -6,6 +6,7 @@ if _lspconfig then
 	lspconfig.pyright.setup({})
 
 	-- LUA
+    --[[
 	lspconfig.lua_ls.setup({
 		autostart = false,
 		settings = {
@@ -29,8 +30,9 @@ if _lspconfig then
 			},
 		},
 	})
+    --]]
 	-- Clangd (C++)
-	lspconfig.clangd.setup({})
+	-- lspconfig.clangd.setup({})
 
 	-- Bash
 	lspconfig.bashls.setup({
@@ -76,7 +78,7 @@ if _lspconfig then
 		capabilities = capabilities,
 	})
 	-- XML
-	lspconfig.lemminx.setup({})
+	-- lspconfig.lemminx.setup({})
 
 	-- VUE
 	lspconfig.vuels.setup({})

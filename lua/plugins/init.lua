@@ -51,7 +51,7 @@ local plugins = {
 	require("plugins.configs.toggleterm"), --- Improved terminal toggle
 	-- require("plugins.configs.illuminate"), --- Automatically highlighting other uses of the word under the cursor
 	require("plugins.configs.project"), -- Project management
-	"sitiom/nvim-numbertoggle", -- Automatic switch to absolute line numbers when you are not in normal or visual mode, or focus is in other split
+	-- "sitiom/nvim-numbertoggle", -- Automatic switch to absolute line numbers when you are not in normal or visual mode, or focus is in other split
 	require("plugins.configs.zen"),
 	"chrisgrieser/nvim-spider",
 	require("plugins.configs.textobjs"),
