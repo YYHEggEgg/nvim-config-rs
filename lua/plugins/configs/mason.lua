@@ -20,6 +20,7 @@ return {
 					"bashls",
 					"dockerls",
 					"docker_compose_language_service",
+					"omnisharp",
 				},
 				automatic_installation = true,
 			})

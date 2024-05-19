@@ -75,6 +75,7 @@ local plugins = {
 	require("lsp.configs.java"),
 	require("lsp.configs.rust"),
 	require("lsp.configs.python"),
+	require("lsp.configs.csharp"),
 
 	---- Snippets
 	"L3MON4D3/LuaSnip",
