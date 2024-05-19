@@ -8,7 +8,7 @@ return {
         
         lspconfig.omnisharp.setup({
             -- 服务器路径，根据实际情况修改
-            cmd = { omnisharp_path .. "/bin/omnisharp", "--languageserver", "--hostPID", tostring(pid) },
+            cmd = { omnisharp_path .. "/omnisharp", "--languageserver", "--hostPID", tostring(pid) },
             capabilities = require("lsp.handlers").capabilities,
             on_attach = require("lsp.handlers").on_attach,
         })
