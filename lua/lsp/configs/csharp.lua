@@ -13,5 +13,9 @@ return {
             capabilities = require("lsp.handlers").capabilities,
             on_attach = require("lsp.handlers").on_attach,
         })
+        
+        vim.g.OmniSharp_server_path = mason_registry.get_package("omnisharp"):get_install_path() .. "/omnisharp"
+        vim.g.omnisharp_auto_start = true
+        vim.g.omnisharp_use_lsp = true
     end,
 }
