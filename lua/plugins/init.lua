@@ -70,6 +70,7 @@ local plugins = {
 
 	---- LSP/DAP
 	require("plugins.configs.mason"),
+	require("plugins.configs.omnisharp"),
 	"neovim/nvim-lspconfig",
     require("lsp.configs.dap"),
 	require("lsp.configs.java"),
