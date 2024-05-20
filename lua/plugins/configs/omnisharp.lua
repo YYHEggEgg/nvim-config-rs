@@ -1,5 +1,5 @@
 return {
-    "OmniSharp/omnisharp-vim"
+    "OmniSharp/omnisharp-vim",
     dependencies = {
         "omnisharp/omnisharp-roslyn"
     }
