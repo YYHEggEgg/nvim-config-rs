@@ -26,7 +26,7 @@ local plugins = {
 	"aktersnurra/no-clown-fiesta.nvim",
 	"kyazdani42/nvim-web-devicons",
 	"onsails/lspkind.nvim", -- VSCode like item type icons
-	require("plugins.configs.bufferline"),
+	-- require("plugins.configs.bufferline"),
 	"folke/which-key.nvim",
 	require("plugins.configs.neoscroll"), -- Smoother scroll
 	require("plugins.configs.ufo"), -- Better fold management
@@ -51,7 +51,7 @@ local plugins = {
 	require("plugins.configs.toggleterm"), --- Improved terminal toggle
 	-- require("plugins.configs.illuminate"), --- Automatically highlighting other uses of the word under the cursor
 	require("plugins.configs.project"), -- Project management
-	"sitiom/nvim-numbertoggle", -- Automatic switch to absolute line numbers when you are not in normal or visual mode, or focus is in other split
+	-- "sitiom/nvim-numbertoggle", -- Automatic switch to absolute line numbers when you are not in normal or visual mode, or focus is in other split
 	require("plugins.configs.zen"),
 	"chrisgrieser/nvim-spider",
 	require("plugins.configs.matchup"),
@@ -72,10 +72,13 @@ local plugins = {
 
 	---- LSP/DAP
 	require("plugins.configs.mason"),
+	require("plugins.configs.omnisharp"),
 	"neovim/nvim-lspconfig",
     require("lsp.configs.dap"),
 	-- require("lsp.configs.java"),
 	-- require("lsp.configs.python"),
+	require("lsp.configs.rust"),
+	require("lsp.configs.csharp"),
 
 	---- Snippets
 	"L3MON4D3/LuaSnip",

@@ -9,6 +9,7 @@ if _lspconfig then
 	})
 
 	-- LUA
+    --[[
 	lspconfig.lua_ls.setup({
 		autostart = false,
 		settings = {
@@ -32,6 +33,7 @@ if _lspconfig then
 			},
 		},
 	})
+
 	-- Rust
 	lspconfig.rust_analyzer.setup({
 		on_attach = function(client, bufnr)
@@ -63,7 +65,7 @@ if _lspconfig then
 	})
 
 	-- Clangd (C++)
-	lspconfig.clangd.setup({})
+	-- lspconfig.clangd.setup({})
 
 	-- Bash
 	lspconfig.bashls.setup({
@@ -109,7 +111,7 @@ if _lspconfig then
 		capabilities = capabilities,
 	})
 	-- XML
-	lspconfig.lemminx.setup({})
+	-- lspconfig.lemminx.setup({})
 
 	-- VUE
 	lspconfig.vuels.setup({})
