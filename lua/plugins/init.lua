@@ -34,7 +34,8 @@ local plugins = {
 	require("plugins.configs.trouble"),
 	require("plugins.configs.aerial"),
 	-- require("plugins.configs.edgy"), -- Layout configurations
-	require("plugins.configs.hydra"),
+	-- Mod: dawn
+	-- require("plugins.configs.hydra"),
 	"rcarriga/nvim-notify", -- Popup notifications
 	"mbbill/undotree",
 	require("plugins.configs.neotree"),
@@ -74,6 +75,7 @@ local plugins = {
 	require("plugins.configs.mason"),
 	require("plugins.configs.omnisharp"),
 	"neovim/nvim-lspconfig",
+    require("plugins.configs.typescripttools"),
     require("lsp.configs.dap"),
 	-- require("lsp.configs.java"),
 	-- require("lsp.configs.python"),

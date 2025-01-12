@@ -13,7 +13,7 @@ return {
 					"pyright",
 					-- "lemminx",
 					"html",
-					"tsserver",
+					"ts_ls",
 					"eslint",
 					"rust_analyzer",
 					-- "lua_ls",

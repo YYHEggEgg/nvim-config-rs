@@ -33,6 +33,7 @@ if _lspconfig then
 			},
 		},
 	})
+--]]
 
 	-- Rust
 	lspconfig.rust_analyzer.setup({
@@ -73,6 +74,7 @@ if _lspconfig then
 	})
 
 	-- Javascript/Typescript
+    --[[
 	lspconfig.eslint.setup({
 		autostart = true,
 		capabilities = capabilities,
@@ -86,6 +88,7 @@ if _lspconfig then
 			})
 		end,
 	})
+--]]
 
 	-- HTML
 	lspconfig.html.setup({
